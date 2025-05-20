@@ -1,0 +1,8 @@
+laser_filter:
+  ros__parameters:
+    filter_chain:
+      - name: "range_filter"
+        type: "laser_filters/RangeFilter"
+        parameters:
+          min_range: 0.4
+          max_range: 12.0

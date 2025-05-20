@@ -1,0 +1,14 @@
+scan_to_scan_filter_chain:
+  ros__parameters:
+    filter1:
+      name: box_filter
+      type: laser_filters/LaserScanBoxFilter
+      params:
+        box_frame: base_link
+        min_x: -0.28      # ย้อนหลังจากเลเซอร์เล็กน้อย
+        max_x: 0.3        # ยาวไปด้านหน้าของ base
+        min_y: -0.2     # ครอบความกว้างของ base
+        max_y: 0.2
+        min_z: -0.05      # ใต้ base เล็กน้อย
+        max_z: 0.2        # สูงถึงจุดติดตั้งเลเซอร์ (0.1365) + ระยะ safety
+        invert: false      

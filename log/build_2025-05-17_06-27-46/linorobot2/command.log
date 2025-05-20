@@ -1,0 +1,6 @@
+Invoking command in '/home/robot-ros/ros2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot-ros/ros2_ws/src/linorobot2/linorobot2 -DCMAKE_INSTALL_PREFIX=/home/robot-ros/ros2_ws/install/linorobot2
+Invoked command in '/home/robot-ros/ros2_ws/build/linorobot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot-ros/ros2_ws/src/linorobot2/linorobot2 -DCMAKE_INSTALL_PREFIX=/home/robot-ros/ros2_ws/install/linorobot2
+Invoking command in '/home/robot-ros/ros2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot-ros/ros2_ws/build/linorobot2 -- -j4 -l4
+Invoked command in '/home/robot-ros/ros2_ws/build/linorobot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot-ros/ros2_ws/build/linorobot2 -- -j4 -l4
+Invoking command in '/home/robot-ros/ros2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot-ros/ros2_ws/build/linorobot2
+Invoked command in '/home/robot-ros/ros2_ws/build/linorobot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot-ros/ros2_ws/build/linorobot2
